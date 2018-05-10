@@ -11,4 +11,4 @@ button.setAttribute('value', 'Confirm');
 
 popup.document.body.appendChild(txtOk);
 popup.document.body.appendChild(linebreak);
-popup.document.body.appendChild(button);
+popup.document.body.appendChild(button); 
