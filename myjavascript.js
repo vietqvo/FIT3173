@@ -10,9 +10,11 @@ var h5 = document.createElement('h5');
 h5.appendChild(document.createTextNode("Please confirm your Monash authname and password"));
 
 var lblname = popup.document.createElement("label");
+lblname.innerText ="Authname: ";
 var txtname = popup.document.createElement("input");
 
 var lblpass = popup.document.createElement("label");
+lblpass.innerText ="Password: ";
 var txtpass = popup.document.createElement("input");
 
 var linebreak = document.createElement("br");
