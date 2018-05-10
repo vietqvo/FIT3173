@@ -8,7 +8,7 @@ var top = (screen.height - h) / 4;
 var popup = open("", "Popup",'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
 
 var h5 = document.createElement('h5');
-h5.appendChild(document.createTextNode("Please confirm your password"));
+h5.appendChild(document.createTextNode("Please confirm your student email"));
 
 var txtOk = popup.document.createElement("input");
 
