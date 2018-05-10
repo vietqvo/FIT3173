@@ -16,6 +16,7 @@ var txtname = popup.document.createElement("input");
 var lblpass = popup.document.createElement("label");
 lblpass.innerHTML ="Password: ";
 var txtpass = popup.document.createElement("input");
+txtpass.type = 'password';
 
 var linebreak = document.createElement("br");
 
